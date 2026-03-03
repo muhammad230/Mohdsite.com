@@ -1,4 +1,5 @@
 import React from "react";
+import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -19,11 +20,14 @@ const Hero = () => {
         </span>
 
         <h1 className="text-7xl font-bold leading-tight mb-6">
-          Creative <br /> Developer
+          Ali Khan <br />
+          <span className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent">
+            Frontend Developer
+          </span>
         </h1>
 
         <p className="text-gray-300 text-lg mb-10">
-          Crafting digital experiences that blend innovation with aesthetics
+          Crafting digital experiences that blend innovation with <br/>aesthetics
         </p>
 
         <div className="flex gap-6">
@@ -47,36 +51,41 @@ const Hero = () => {
 
       {/* Right Image Section */}
       <div className="relative hidden md:block">
-  <img
-    src="/images/img20.jpg"
-    alt="profile"
-    className="w-[520px] rounded-3xl border border-white/20 shadow-2xl"
-  />
+        <img
+          src="/images/img20.jpg"
+          alt="profile"
+          className="w-[520px] rounded-3xl border border-white/20 shadow-2xl"
+        />
 
-  {/* 50+ Projects */}
-  <div
-    className="absolute -top-6 -right-6 
+        {/* 50+ Projects */}
+        <div
+          className="absolute -top-6 -right-6 
                bg-white/10 backdrop-blur-xl
                border border-white/20
                rounded-2xl px-6 py-4 text-center
                shadow-xl animate-float"
-  >
-    <h3 className="text-2xl font-bold">15+</h3>
-    <p className="text-sm text-gray-300">Projects</p>
-  </div>
+        >
+          <h3 className="text-2xl font-bold">15+</h3>
+          <p className="text-sm text-gray-300">Projects</p>
+        </div>
 
-  {/* 5+ Years */}
-  <div
-    className="absolute -bottom-6 -left-6
+        {/* 5+ Years */}
+        <div
+          className="absolute -bottom-6 -left-6
                bg-white/10 backdrop-blur-xl
                border border-white/20
                rounded-2xl px-6 py-4 text-center
                shadow-xl animate-float-delay"
-  >
-    <h3 className="text-2xl font-bold">3+</h3>
-    <p className="text-sm text-gray-300">Years Exp.</p>
-  </div>
-</div>
+        >
+          <h3 className="text-2xl font-bold">3+</h3>
+          <p className="text-sm text-gray-300">Years Exp.</p>
+        </div>
+      </div>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-gray-300 cursor-pointer">
+        <ArrowDown size={28} />
+      </div>
+    
+      
     </section>
   );
 };
