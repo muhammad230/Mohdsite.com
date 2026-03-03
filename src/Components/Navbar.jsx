@@ -9,27 +9,27 @@ function Navbar() {
                       border border-white/20 
                       rounded-full shadow-lg text-white">
 
-        <a href="#" className="flex items-center gap-2 hover:text-pink-400 transition">
+        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Home size={18} />
           Home
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-pink-400 transition">
+        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
           <User size={18} />
           About
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-pink-400 transition">
+        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Briefcase size={18} />
           Work
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-pink-400 transition">
+        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Code size={18} />
           Skills
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-pink-400 transition">
+        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Mail size={18} />
           Contact
         </a>
