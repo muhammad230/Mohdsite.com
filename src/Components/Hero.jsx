@@ -2,30 +2,81 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center text-center px-20 text-white">
-      <div className="max-w-xl">
-        <span className="inline-block px-4 py-2 mb-6 text-sm bg-white/10 backdrop-blur-md border border-white/20 rounded-full">
+    <section
+      className="min-h-screen flex items-center justify-between 
+                 px-24 text-white
+                 bg-linear-to-br from-purple-900 via-purple-700 to-indigo-900
+                 relative overflow-hidden"
+    >
+      {/* Left Content */}
+      <div className="max-w-2xl">
+        <span
+          className="inline-block px-5 py-2 mb-8 text-sm 
+                     bg-white/10 backdrop-blur-lg 
+                     border border-white/20 rounded-full"
+        >
           ✨ Available for work
         </span>
-        <h1 className="text-6xl font-bold leading-tight mb-6 ">
+
+        <h1 className="text-7xl font-bold leading-tight mb-6">
           Creative <br /> Developer
         </h1>
-        <p className="text-gray-300 mb-8">
-        Crafting digital experiences that blend innovation with aesthetics
+
+        <p className="text-gray-300 text-lg mb-10">
+          Crafting digital experiences that blend innovation with aesthetics
         </p>
-        <div className="flex gap-4">
-            <button className="px-6 py-3 rounded-full 
-                             bg-linear-to-br from-pink-500 to-purple-600 
-                             hover:scale-105 transition duration-300">
+
+        <div className="flex gap-6">
+          <button
+            className="px-8 py-3 rounded-full 
+                       bg-linear-to-r from-pink-500 to-purple-600
+                       hover:scale-105 transition duration-300"
+          >
             View Projects
           </button>
-          <button className="px-6 py-3 rounded-full 
-                             border border-white/30 
-                             hover:bg-white/10 transition duration-300">
-            Let's Talk
+
+          <button
+            className="px-8 py-3 rounded-full 
+                       border border-white/30 
+                       hover:bg-white/10 transition duration-300"
+          >
+            Let’s Talk
           </button>
         </div>
       </div>
+
+      {/* Right Image Section */}
+      <div className="relative hidden md:block">
+  <img
+    src="/images/img20.jpg"
+    alt="profile"
+    className="w-[520px] rounded-3xl border border-white/20 shadow-2xl"
+  />
+
+  {/* 50+ Projects */}
+  <div
+    className="absolute -top-6 -right-6 
+               bg-white/10 backdrop-blur-xl
+               border border-white/20
+               rounded-2xl px-6 py-4 text-center
+               shadow-xl animate-float"
+  >
+    <h3 className="text-2xl font-bold">15+</h3>
+    <p className="text-sm text-gray-300">Projects</p>
+  </div>
+
+  {/* 5+ Years */}
+  <div
+    className="absolute -bottom-6 -left-6
+               bg-white/10 backdrop-blur-xl
+               border border-white/20
+               rounded-2xl px-6 py-4 text-center
+               shadow-xl animate-float-delay"
+  >
+    <h3 className="text-2xl font-bold">3+</h3>
+    <p className="text-sm text-gray-300">Years Exp.</p>
+  </div>
+</div>
     </section>
   );
 };
