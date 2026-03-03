@@ -9,7 +9,7 @@ const Hero = () => {
                  bg-linear-to-br from-purple-900 via-purple-700 to-indigo-900
                  relative overflow-hidden"
     >
-      {/* Left Content */}
+      
       <div className="max-w-2xl">
         <span
           className="inline-block px-5 py-2 mb-8 text-sm 
@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Image Section */}
+     
       <div className="relative hidden md:block">
         <img
           src="/images/img20.jpg"
@@ -57,7 +57,7 @@ const Hero = () => {
           className="w-[520px] rounded-3xl border border-white/20 shadow-2xl"
         />
 
-        {/* 50+ Projects */}
+      
         <div
           className="absolute -top-6 -right-6 
                bg-white/10 backdrop-blur-xl
@@ -69,7 +69,7 @@ const Hero = () => {
           <p className="text-sm text-gray-300">Projects</p>
         </div>
 
-        {/* 5+ Years */}
+      
         <div
           className="absolute -bottom-6 -left-6
                bg-white/10 backdrop-blur-xl
