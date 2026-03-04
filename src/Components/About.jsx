@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCode, FaPalette, FaRocket, FaBolt } from "react-icons/fa";   
 
 const About = () => {
   return (
@@ -50,6 +51,15 @@ const About = () => {
               <p className="text-gray-400">Awards Won</p>
             </div>
           </div>
+        </div>
+        <div className="grid md:grid-cols-4 gap-6 mt-24">
+            <div className="bg-[#111c33] p-8 rounded-2xl border border-white/10 hover:-translate-y-2 hover:border-blue-500 transition duration-300">
+                <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-500/20 mb-4">
+                  <FaCode className="text-blue-400 text-xl" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Clean Code</h3>
+            </div>
+            
         </div>
       </div>
     </section>
