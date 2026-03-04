@@ -34,23 +34,21 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-purple-800/40 p-8 rounded-2xl border border-purple-500/20 hover:scale-105 transition duration-300">
-                <h3 className="text-4xl font-bold text-purple-400">50+</h3>
-                <p className="text-gray-400">Clients Satisfied</p>
+              <h3 className="text-4xl font-bold text-purple-400">50+</h3>
+              <p className="text-gray-400">Clients Satisfied</p>
             </div>
             <div className="bg-blue-800/40 p-8 rounded-2xl border border-blue-500/20 hover:scale-105 transition duration-300">
-                <h3 className="text-4xl font-bold text-purple-400">30+</h3>
-                <p className="text-gray-400">Projects Completed</p>
+              <h3 className="text-4xl font-bold text-purple-400">30+</h3>
+              <p className="text-gray-400">Projects Completed</p>
             </div>
             <div className="bg-orange-800/40 p-8 rounded-2xl border border-orange-500/20 hover:scale-105 transition duration-300">
-                <h3 className="text-4xl font-bold text-purple-400">3+</h3>
-                <p className="text-gray-400">Years of Experience</p>
+              <h3 className="text-4xl font-bold text-purple-400">3+</h3>
+              <p className="text-gray-400">Years of Experience</p>
             </div>
             <div className="bg-green-800/40 p-8 rounded-2xl border border-green-500/20 hover:scale-105 transition duration-300">
-                <h3 className="text-4xl font-bold text-purple-400">10+</h3>
-                <p className="text-gray-400">Awards Won</p>
+              <h3 className="text-4xl font-bold text-purple-400">10+</h3>
+              <p className="text-gray-400">Awards Won</p>
             </div>
-
-  
           </div>
         </div>
       </div>
