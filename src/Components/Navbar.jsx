@@ -13,13 +13,13 @@ function Navbar() {
           <Home size={18} />
           Home
         </a>
-
-        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
+  
+        <a href="#about" className="flex items-center gap-2 hover:text-blue-300 transition">
           <User size={18} />
           About
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
+        <a href="#work" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Briefcase size={18} />
           Work
         </a>
@@ -29,7 +29,7 @@ function Navbar() {
           Skills
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
+        <a href="#contact" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Mail size={18} />
           Contact
         </a>
