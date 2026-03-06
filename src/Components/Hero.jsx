@@ -20,7 +20,7 @@ const Hero = () => {
         </span>
 
         <h1 className="text-7xl font-bold leading-tight mb-6">
-          Ali Khan <br />
+          Muhammmad Ali<br />
           <span className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent">
             Frontend Developer
           </span>
