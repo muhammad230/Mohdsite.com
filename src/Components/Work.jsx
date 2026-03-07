@@ -3,16 +3,16 @@ import React from "react";
 const projects = [
   {
     category: "Full Stack",
-    title: "NexGen E-Commerce",
-    desc: "AI-powered shopping platform with real-time inventory and personalized recommendations",
-    tech: ["React", "Node.js", "AI", "Stripe"],
+    title: "Sneaker website",
+    desc: "Modern sneaker shopping website with stylish UI and smooth product browsing experience.",
+    tech: ["React", "Node.js", "AI", "Tailwind CSS"],
     img: "/images/jj.jpg",
   },
   {
     category: "Frontend",
-    title: "Creative Studio",
-    desc: "Interactive portfolio platform for digital artists with 3D galleries",
-    tech: ["Next.js", "Three.js", "GSAP"],
+    title: "Game PRO",
+    desc: "A fun dice game built with JavaScript where players roll dice to determine the winner.",
+    tech: ["React.js", "Tailwind CSS", "Game Logic"],
     img: "/images/dices.png",
   },
 ];
