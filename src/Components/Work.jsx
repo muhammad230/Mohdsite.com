@@ -54,7 +54,7 @@ const Work = () => {
 
             <div className="p-6">
               {/* Category */}
-              <span className="bg-purple-500 text-xs px-3 py-1 rounded-full">
+              <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-xs px-3 py-1 rounded-full">
                 {project.category}
               </span>
 
