@@ -43,7 +43,7 @@ const projects = [
 
 const Work = () => {
   return (
-    <section id="work" className="py-20 px-6 text-white">
+    <section id="work" className=" bg-[#070313] py-20 px-6 text-white">
       
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -145,8 +145,20 @@ const Work = () => {
         ))}
 
       </div>
+      
+ <button className="relative overflow-hidden bg-black text-white py-3 px-6 rounded-full mt-10 mx-auto block transition-all duration-500 group">
+
+  <span className="relative z-10">
+    View All Projects
+  </span>
+
+  <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+  </span>
+
+</button>
 
     </section>
+    
   );
 };
 
