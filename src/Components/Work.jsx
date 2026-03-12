@@ -44,7 +44,6 @@ const projects = [
 const Work = () => {
   return (
     <section id="work" className=" bg-[#070313] py-20 px-6 text-white">
-      
       {/* Section Title */}
       <div className="text-center mb-16">
         <p className="text-purple-400 text-sm tracking-widest mb-4">
@@ -65,16 +64,13 @@ const Work = () => {
 
       {/* Project Cards */}
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
-
         {projects.map((project, index) => (
           <div
             key={index}
             className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden hover:scale-105 transition duration-500"
           >
-
             {/* Image Container */}
             <div className="relative overflow-hidden">
-
               {/* Image */}
               <img
                 src={project.img}
@@ -84,7 +80,6 @@ const Work = () => {
 
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition duration-500">
-
                 {/* GitHub */}
                 <a
                   href={project.github}
@@ -104,28 +99,21 @@ const Work = () => {
                 >
                   <FiExternalLink size={18} />
                 </a>
-
               </div>
-
             </div>
 
             {/* Card Content */}
             <div className="p-6">
-
               {/* Category */}
               <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-xs px-3 py-1 rounded-full">
                 {project.category}
               </span>
 
               {/* Title */}
-              <h3 className="text-xl font-semibold mt-4">
-                {project.title}
-              </h3>
+              <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
 
               {/* Description */}
-              <p className="text-gray-400 mt-2">
-                {project.desc}
-              </p>
+              <p className="text-gray-400 mt-2">{project.desc}</p>
 
               {/* Tech Stack */}
               <div className="flex flex-wrap gap-2 mt-4">
@@ -138,27 +126,17 @@ const Work = () => {
                   </span>
                 ))}
               </div>
-
             </div>
-
           </div>
         ))}
-
       </div>
-      
- <button className="relative overflow-hidden bg-black text-white py-3 px-6 rounded-full mt-10 mx-auto block transition-all duration-500 group">
 
-  <span className="relative z-10">
-    View All Projects
-  </span>
+      <button className="relative overflow-hidden bg-black text-white py-3 px-6 rounded-full mt-10 mx-auto block transition-all duration-500 group">
+        <span className="relative z-10">View All Projects</span>
 
-  <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-  </span>
-
-</button>
-
+        <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
+      </button>
     </section>
-    
   );
 };
 
