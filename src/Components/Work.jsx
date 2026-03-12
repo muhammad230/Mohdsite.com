@@ -21,6 +21,24 @@ const projects = [
     github: "https://github.com/",
     demo: "https://example.com",
   },
+  {
+    category: "React.js",
+    title: "Hotel Booking App",
+    desc: "A modern hotel booking application built with React.js and integrated with a REST API for seamless user experience.",
+    tech: ["React.js", "Tailwind CSS", "JavaScript"],
+    img: "/images/d.jpeg",
+    github: "https://github.com/",
+    demo: "https://example.com",
+  },
+  {
+    category: "JavaScript",
+    title: "portfolio",
+    desc: "A responsive portfolio website built with JavaScript and modern CSS techniques.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    img: "/images/fd.jpg",
+    github: "https://github.com/",
+    demo: "https://example.com",
+  },
 ];
 
 const Work = () => {
