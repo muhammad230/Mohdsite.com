@@ -1,30 +1,32 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 const projects = [
   {
     category: "Full Stack",
-    title: "Sneaker website",
+    title: "Sneaker E-Commerce",
     desc: "Modern sneaker shopping website with stylish UI and smooth product browsing experience.",
-    tech: ["React", "Node.js", "AI", "Tailwind CSS"],
+    tech: ["React", "Tailwind CSS", "JavaScript"],
     img: "/images/jj.jpg",
     github: "https://github.com/",
-    demo: "https://example.com"
+    demo: "https://example.com",
   },
   {
     category: "Frontend",
-    title: "Game PRO",
+    title: "Dice Game",
     desc: "A fun dice game built with JavaScript where players roll dice to determine the winner.",
-    tech: ["React.js", "Tailwind CSS", "Game Logic"],
+    tech: ["HTML", "CSS", "JavaScript"],
     img: "/images/dices.png",
     github: "https://github.com/",
-    demo: "https://example.com"
+    demo: "https://example.com",
   },
 ];
 
 const Work = () => {
   return (
     <section id="work" className="py-20 px-6 text-white">
-
+      
       {/* Section Title */}
       <div className="text-center mb-16">
         <p className="text-purple-400 text-sm tracking-widest mb-4">
@@ -49,43 +51,47 @@ const Work = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:scale-105 transition duration-300"
+            className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden hover:scale-105 transition duration-500"
           >
 
-            {/* Image with Hover Overlay */}
-            <div className="relative">
+            {/* Image Container */}
+            <div className="relative overflow-hidden">
 
+              {/* Image */}
               <img
                 src={project.img}
                 alt={project.title}
-                className="w-full h-56 object-cover"
+                className="w-full h-60 object-cover transition duration-500 group-hover:scale-110 group-hover:blur-sm"
               />
 
-              {/* Hover Buttons */}
-              <div className="absolute inset-0 bg-black/70 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition duration-300">
+              {/* Hover Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition duration-500">
 
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 text-sm bg-purple-500 hover:bg-purple-600 rounded-lg transition"
-                >
-                  Live Demo
-                </a>
-
+                {/* GitHub */}
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 text-sm border border-white rounded-lg hover:bg-white/10 transition"
+                  className="w-12 h-12 flex items-center justify-center rounded-full border border-white/40 hover:bg-white/20 transition"
                 >
-                  GitHub
+                  <FaGithub size={18} />
+                </a>
+
+                {/* Live Demo */}
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 flex items-center justify-center rounded-full border border-white/40 hover:bg-white/20 transition"
+                >
+                  <FiExternalLink size={18} />
                 </a>
 
               </div>
 
             </div>
 
+            {/* Card Content */}
             <div className="p-6">
 
               {/* Category */}
