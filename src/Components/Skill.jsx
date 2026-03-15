@@ -1,16 +1,16 @@
 import React from "react";
 
 const skillsleft = [
-  { name: "React / Next.js", percent: 95, color: "bg-cyan-400" },
-  { name: "Node.js / Express", percent: 88, color: "bg-green-400" },
+  { name: "React / Next.js", percent: 90, color: "bg-cyan-400" },
+  { name: "Node.js / Express", percent: 70, color: "bg-green-400" },
   { name: "UI/UX Design", percent: 85, color: "bg-pink-500" },
-  { name: "Three.js / GSAP", percent: 78, color: "bg-indigo-400" },
+  { name: "Three.js / GSAP", percent: 50, color: "bg-indigo-400" },
 ];
 
 const skillsright = [
-  { name: "JavaScript", percent: 98, color: "bg-blue-400" },
-  { name: "HTML / CSS", percent: 95, color: "bg-purple-400" },
-  { name: "MongoDB / SQL", percent: 80, color: "bg-orange-400" },
+  { name: "JavaScript", percent: 93, color: "bg-blue-400" },
+  { name: "HTML / CSS", percent: 96, color: "bg-purple-400" },
+  { name: "MongoDB / SQL", percent: 50, color: "bg-orange-400" },
   { name: "Git / GitHub", percent: 90, color: "bg-yellow-400" },
 ];
 
@@ -19,7 +19,7 @@ const SkillBar = ({ name, percent, color }) => {
     <div className="mb-6">
       <div className="flex justify-between text-sm mb-2">
         <span className="font-medium">{name}</span>
-        <span className="text-gray-400">{percent}%</span>
+        <span className="text-pink-400">{percent}%</span>
       </div>
 
       <div className="w-full h-2 bg-gray-800 rounded-full">
