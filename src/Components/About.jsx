@@ -3,7 +3,7 @@ import { FaCode, FaPalette, FaRocket, FaBolt } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#0d0524] text-white py-24 px-6">
+    <section id="about" className="bg-[#1b0d41] text-white py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <p className="text-center text-purple-400 tracking-widest mb-4">
           ABOUT ME
