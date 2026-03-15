@@ -43,7 +43,7 @@ const projects = [
 
 const Work = () => {
   return (
-    <section id="work" className=" bg-[#070313] py-20 px-6 text-white">
+    <section id="work" className=" bg-[#040111] py-20 px-6 text-white">
       {/* Section Title */}
       <div className="text-center mb-16">
         <p className="text-purple-400 text-sm tracking-widest mb-4">
