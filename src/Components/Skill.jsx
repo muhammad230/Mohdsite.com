@@ -33,18 +33,17 @@ const SkillBar = ({ name, percent, color }) => {
   );
 };
 const tools = [
-  "Figma",
-  "VS Code",
-  "Git",
-  "Docker",
-  "Postman",
-  "Vercel",
-  "MongoDB",
-  "PostgreSQL",
-  "Redis",
-  "GraphQL",
-  "REST API",
-  "WebSocket",
+ "Figma",
+"VS Code",
+"Git",
+"GitHub",
+"Vercel",
+"Netlify",
+"Chrome DevTools",
+"Postman",
+"Tailwind CSS",
+"Bootstrap",
+"npm"
 ];
 
 const Skill = () => {
