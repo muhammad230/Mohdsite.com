@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRocket, FaBullseye, FaLightbulb } from "react-icons/fa";
 
 const skillsleft = [
   { name: "React / Next.js", percent: 90, color: "bg-cyan-400" },
@@ -100,6 +101,34 @@ const Skill = () => {
               {tool}
             </span>
           ))}
+        </div>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6 mt-18">
+          {/* Fast Learner */}
+          <div className="bg-[#0c0c0c] border border-gray-800 p-4 rounded-xl ">
+            <FaRocket className="text-4xl mx-auto mb-4 text-purple-400" />
+            <h3 className="text-xl font-semibold mb-2 text-center">
+              Fast Learner
+            </h3>
+            <p className="text-gray-400 text-center">
+              Constantly exploring new technologies and staying ahead of trends
+            </p>
+          </div>
+          <div className="bg-[#0c0c0c] border border-gray-800 p-4 rounded-xl ">
+            <FaBullseye className="text-4xl mx-auto mb-4 text-pink-400" />
+            <h3 className="text-xl font-semibold mb-2 text-center">Detail Oriented</h3>
+            <p className="text-gray-400 text-center">
+              Obsessed with pixel-perfect designs and clean code
+            </p>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-[#0c0c0c] border border-gray-800 p-4 rounded-xl ">
+            <FaLightbulb className="text-4xl mx-auto mb-4 text-yellow-400" />
+            <h3 className="text-xl font-semibold mb-2 text-center">Problem Solver</h3>
+            <p className="text-gray-400 text-center">
+              Analytical thinking to tackle complex challenges
+            </p>
+          </div>
         </div>
       </div>
     </section>
