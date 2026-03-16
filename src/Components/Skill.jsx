@@ -31,11 +31,24 @@ const SkillBar = ({ name, percent, color }) => {
     </div>
   );
 };
+const tools = [
+  "Figma",
+  "VS Code",
+  "Git",
+  "Docker",
+  "Postman",
+  "Vercel",
+  "MongoDB",
+  "PostgreSQL",
+  "Redis",
+  "GraphQL",
+  "REST API",
+  "WebSocket",
+];
 
 const Skill = () => {
   return (
     <section id="skill" className="bg-[#03000a] py-20 px-6 text-white">
-      
       {/* Heading */}
       <div className="text-center mb-16">
         <p className="text-purple-400 text-xl tracking-widest mb-4">
@@ -50,12 +63,11 @@ const Skill = () => {
         </h2>
       </div>
       <p className="text-white text-2xl mt-4 text-center mb-12 font-bold">
-  Core Competencies
-</p>
+        Core Competencies
+      </p>
 
       {/* Skills Grid */}
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        
         {/* Left Skills */}
         <div>
           {skillsleft.map((skill, index) => (
@@ -69,9 +81,27 @@ const Skill = () => {
             <SkillBar key={index} {...skill} />
           ))}
         </div>
-
       </div>
+      <div className="max-w-6xl mx-auto mt-16">
+        <div className="text-center text-2xl font-semibold mb-8">
+          <h2>Tools & Frameworks</h2>
+        </div>
 
+        {/* Tools */}
+        <div className="flex flex-wrap justify-center gap-4">
+          {tools.map((tool, index) => (
+            <span
+              key={index}
+              className="px-5 py-2 bg-[#0c0c0c] border border-gray-700 rounded-full 
+      transition-all duration-300 cursor-pointer
+      hover:-translate-y-2 hover:scale-105
+      hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500"
+            >
+              {tool}
+            </span>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
