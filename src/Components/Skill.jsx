@@ -33,17 +33,17 @@ const SkillBar = ({ name, percent, color }) => {
   );
 };
 const tools = [
- "Figma",
-"VS Code",
-"Git",
-"GitHub",
-"Vercel",
-"Netlify",
-"Chrome DevTools",
-"Postman",
-"Tailwind CSS",
-"Bootstrap",
-"npm"
+  "Figma",
+  "VS Code",
+  "Git",
+  "GitHub",
+  "Vercel",
+  "Netlify",
+  "Chrome DevTools",
+  "Postman",
+  "Tailwind CSS",
+  "Bootstrap",
+  "npm",
 ];
 
 const Skill = () => {
@@ -114,7 +114,9 @@ const Skill = () => {
           </div>
           <div className="bg-[#0c0c0c] border border-gray-800 p-4 rounded-xl ">
             <FaBullseye className="text-4xl mx-auto mb-4 text-pink-400" />
-            <h3 className="text-xl font-semibold mb-2 text-center">Detail Oriented</h3>
+            <h3 className="text-xl font-semibold mb-2 text-center">
+              Detail Oriented
+            </h3>
             <p className="text-gray-400 text-center">
               Obsessed with pixel-perfect designs and clean code
             </p>
@@ -123,7 +125,9 @@ const Skill = () => {
           {/* Card 3 */}
           <div className="bg-[#0c0c0c] border border-gray-800 p-4 rounded-xl ">
             <FaLightbulb className="text-4xl mx-auto mb-4 text-yellow-400" />
-            <h3 className="text-xl font-semibold mb-2 text-center">Problem Solver</h3>
+            <h3 className="text-xl font-semibold mb-2 text-center">
+              Problem Solver
+            </h3>
             <p className="text-gray-400 text-center">
               Analytical thinking to tackle complex challenges
             </p>
