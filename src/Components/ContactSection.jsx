@@ -69,6 +69,10 @@ transition-all duration-300 hover:translate-x-3 cursor-pointer"
               <FaTwitter />
             </span>
           </div>
+          <p className="text-gray-400 mt-8 italic bg-[#03000a] p-6 rounded-xl  border border-gray-700">
+            "Great things in business are never done by one person. They're done by a team of people." <br />
+            <span className="text-purple-400">- Steve Jobs</span>
+          </p>
         </div>
         {/* right */}
         <div className="p-8 rounded-xl ">
@@ -96,6 +100,9 @@ transition-all duration-300 hover:translate-x-3 cursor-pointer"
               className="w-full p-3 rounded-lg bg-[#03000a] border border-gray-700 focus:outline-none focus:border-purple-500"
             ></textarea>
           </div>
+           <button className="w-full py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 hover:scale-105 transition duration-300">
+            Send Message ✈️
+          </button>
         </div>
       </div>
     </section>
