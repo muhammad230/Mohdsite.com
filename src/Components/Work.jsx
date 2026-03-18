@@ -9,7 +9,7 @@ const projects = [
     desc: "Modern sneaker shopping website with stylish UI and smooth product browsing experience.",
     tech: ["React", "Tailwind CSS", "JavaScript"],
     img: "/images/jj.jpg",
-    github: "https://github.com/",
+    github: "https://shoes-web-sage.vercel.app/",
     demo: "https://example.com",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     desc: "A fun dice game built with JavaScript where players roll dice to determine the winner.",
     tech: ["HTML", "CSS", "JavaScript"],
     img: "/images/dices.png",
-    github: "https://github.com/",
+    github: "https://dice-game-liart-eta.vercel.app/",
     demo: "https://example.com",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     desc: "A modern hotel booking application built with React.js and integrated with a REST API for seamless user experience.",
     tech: ["React.js", "Tailwind CSS", "JavaScript"],
     img: "/images/d.jpeg",
-    github: "https://github.com/",
+    github: "https://hotel-booking-website-jade.vercel.app/",
     demo: "https://example.com",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     desc: "A responsive portfolio website built with JavaScript and modern CSS techniques.",
     tech: ["HTML", "CSS", "JavaScript"],
     img: "/images/fd.jpg",
-    github: "https://github.com/",
+    github: "https://protfolio-new-psi.vercel.app/",
     demo: "https://example.com",
   },
 ];
