@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
-    <section className="bg-[#03000a] py-20 px-6 text-white">
+    <section className="bg-[#03000a] py-20 px-6 text-white ">
       <div className="text-center mb-16">
         <p className="text-purple-400 text-xl  mb-4">Get In Touch</p>
         <h2 className="text-6xl font-bold mb-4">
@@ -19,7 +19,7 @@ const ContactSection = () => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto grid ms:grid-col-2 gap-12">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         {/* left */}
         <div>
           {/* email */}
@@ -68,6 +68,33 @@ transition-all duration-300 hover:translate-x-3 cursor-pointer"
             <span className="p-3 rounded-full border border-gray-700 hover:bg-purple-500 transition cursor-pointer hover-rubber">
               <FaTwitter />
             </span>
+          </div>
+        </div>
+        {/* right */}
+        <div className="p-8 rounded-xl ">
+          <div className="mb-6">
+            <label className="block mb-2 text-sm">Your Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              className="w-full p-3 rounded-xl bg-[#03000a] border border-gray-700 focus:outline-none focus:border-purple-500"
+            />
+          </div>
+          <div>
+            <label className="block mb-2 text-sm">Your Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full p-3 rounded-xl bg-[#03000a] border border-gray-700 focus:outline-none focus:border-purple-500"
+            />
+          </div>
+          <div className="mb-6 mt-4">
+            <label className="block mb-2 text-sm">Your Message</label>
+            <textarea
+              rows="5"
+              placeholder="Tell me about your project..."
+              className="w-full p-3 rounded-lg bg-[#03000a] border border-gray-700 focus:outline-none focus:border-purple-500"
+            ></textarea>
           </div>
         </div>
       </div>
