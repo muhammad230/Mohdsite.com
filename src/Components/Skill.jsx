@@ -5,7 +5,7 @@ const skillsleft = [
   { name: "React / Next.js", percent: 90, color: "bg-cyan-400" },
   { name: "Node.js / Express", percent: 70, color: "bg-green-400" },
   { name: "UI/UX Design", percent: 85, color: "bg-pink-500" },
-  { name: "Three.js / GSAP", percent: 50, color: "bg-indigo-400" },
+  { name: "Three.js / GSAP", percent: 49, color: "bg-indigo-400" },
 ];
 
 const skillsright = [
