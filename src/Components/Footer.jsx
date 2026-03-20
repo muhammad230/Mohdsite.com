@@ -1,12 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>footer here
-      </h1>
-    </div>
-  )
-}
+    <footer className="bg-black py-20 px-6 text-white">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
+        {/* left column */}
+        <div>
+          <h2 className="text-2xl font-bold text-purple-400 mb-4">Developer Portfolio</h2>
+          <p className="text-gray-400">
+            Crafting digital experiences with passion and precision.<br /> Let's build
+            something amazing together.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
