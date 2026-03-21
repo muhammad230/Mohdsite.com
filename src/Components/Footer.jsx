@@ -46,6 +46,22 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        
+        <div>
+            <h3 className="font-semibold mb-4">Stay Updated</h3>
+            <p className="text-gray-400 mb-4">Get notified about new projects and articles.</p>
+
+            <div className="flex gap-4 ">
+              <input 
+              type="email" 
+              placeholder="Your email"
+              className="flex-1 p-2 rounded-lg bg-[#0c0c0c] border border-gray-700 focus:outline-none"
+              />
+               <button className="px-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg hover:scale-105 transition">
+              Subscribe
+            </button>
+              </div>
+        </div>
       </div>
     </footer>
   );
