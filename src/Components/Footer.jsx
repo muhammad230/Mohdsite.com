@@ -63,6 +63,21 @@ const Footer = () => {
               </div>
         </div>
       </div>
+      {/* bottom line */}
+      <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+        
+         <p>© 2026 Made with ❤️ by Muhammad Ali</p>
+
+         <div className="flex gap-6 mt-4 md:mt-0">
+            <span className="hover:text-purple-400 cursor-pointer">
+              Privacy Policy
+               </span>
+               <span className="hover:text-white cursor-pointer">
+            Terms of Service
+          </span>
+         </div>
+
+      </div>
     </footer>
   );
 };
