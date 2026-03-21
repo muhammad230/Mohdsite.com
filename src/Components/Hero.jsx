@@ -9,7 +9,6 @@ const Hero = () => {
                  bg-linear-to-br from-purple-900 via-purple-700 to-indigo-900
                  relative overflow-hidden"
     >
-      
       <div className="max-w-2xl">
         <span
           className="inline-block px-5 py-2 mb-8 text-sm 
@@ -20,14 +19,16 @@ const Hero = () => {
         </span>
 
         <h1 className="text-7xl font-bold leading-tight mb-6">
-          Muhammmad Ali<br />
+          Muhammmad Ali
+          <br />
           <span className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent">
             Frontend Developer
           </span>
         </h1>
 
         <p className="text-gray-300 text-lg mb-10">
-          Crafting digital experiences that blend innovation with <br/>aesthetics
+          Crafting digital experiences that blend innovation with <br />
+          aesthetics
         </p>
 
         <div className="flex gap-6">
@@ -49,7 +50,6 @@ const Hero = () => {
         </div>
       </div>
 
-     
       <div className="relative hidden md:block">
         <img
           src="/images/img20.jpg"
@@ -57,7 +57,6 @@ const Hero = () => {
           className="w-[520px] rounded-3xl border border-white/20 shadow-2xl"
         />
 
-      
         <div
           className="absolute -top-6 -right-6 
                bg-white/10 backdrop-blur-xl
@@ -69,7 +68,6 @@ const Hero = () => {
           <p className="text-sm text-gray-300">Projects</p>
         </div>
 
-      
         <div
           className="absolute -bottom-6 -left-6
                bg-white/10 backdrop-blur-xl
@@ -84,8 +82,6 @@ const Hero = () => {
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-gray-300 cursor-pointer">
         <ArrowDown size={28} />
       </div>
-    
-      
     </section>
   );
 };
