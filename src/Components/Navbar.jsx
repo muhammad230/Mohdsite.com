@@ -24,7 +24,7 @@ function Navbar() {
           Work
         </a>
 
-        <a href="#" className="flex items-center gap-2 hover:text-blue-300 transition">
+        <a href="#skill" className="flex items-center gap-2 hover:text-blue-300 transition">
           <Code size={18} />
           Skills
         </a>
