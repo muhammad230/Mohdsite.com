@@ -33,3 +33,6 @@
 .hover-rubber:hover {
   animation: rubberBand 0.6s ease;
 }
+html {
+  scroll-behavior: smooth;
+}
