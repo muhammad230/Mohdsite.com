@@ -19,7 +19,7 @@ const Hero = () => {
         </span>
 
         <h1 className="text-7xl font-bold leading-tight mb-6">
-          Muhammmad Ali
+          Muhammad Ali
           <br />
           <span className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-transparent">
             Frontend Developer
@@ -32,21 +32,25 @@ const Hero = () => {
         </p>
 
         <div className="flex gap-6">
-          <button
-            className="px-8 py-3 rounded-full 
-                       bg-linear-to-r from-pink-500 to-purple-600
-                       hover:scale-105 transition duration-300"
-          >
+          <a href="#work">
+            <button
+              className="px-8 py-3 rounded-full 
+                         bg-linear-to-r from-pink-500 to-purple-600
+                         hover:scale-105 transition duration-300"
+            >
             View Projects
           </button>
+          </a>
 
-          <button
-            className="px-8 py-3 rounded-full 
-                       border border-white/30 
-                       hover:bg-white/10 transition duration-300"
-          >
-            Let’s Talk
-          </button>
+          <a href="#contact">
+            <button
+              className="px-8 py-3 rounded-full 
+                         border border-white/30 
+                         hover:bg-white/10 transition duration-300"
+            >
+              Let’s Talk
+            </button>
+          </a>
         </div>
       </div>
 
