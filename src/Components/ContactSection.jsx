@@ -101,7 +101,7 @@ const ContactSection = () => {
 
             {/* Twitter */}
             <a
-              href="https://twitter.com/your-username"
+              href="https://x.com/Muhamma37779268"
               target="_blank"
               rel="noopener noreferrer"
               title="Twitter"
