@@ -55,7 +55,7 @@ const Footer = () => {
               <input 
               type="email" 
               placeholder="Your email"
-              className="flex-1 p-2 rounded-lg bg-[#0c0c0c] border border-gray-700 focus:outline-none"
+              className="flex-1 p-2 rounded-lg bg-[#0c0c0c] border border-gray-701 focus:outline-none"
               />
                <button className="px-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg hover:scale-105 transition">
               Subscribe
